@@ -1,14 +1,140 @@
-<p id="notice"><%= notice %></p>
+
+<div class="row">
+    <div class="col-lg-12 page-header">
+        <h3 style="display:inline-block;margin-top: 0;">Employee Details: <%= @employee.name %> <%= @employee.surname %></h3>
+        <%= link_to 'Edit', edit_employee_path(@employee), class:'pull-right btn btn-default', style: 'margin-left:10px;' %>
+        <%= link_to 'Back', employees_path, class:'pull-right btn btn-success' %>
+    </div>
+</div>
+
+<p>
+  <strong>Empid:</strong>
+  <%= @employee.empid %>
+</p>
+
+<p>
+  <strong>Location:</strong>
+  <%= @employee.location %>
+</p>
 
 <p>
   <strong>Name:</strong>
   <%= @employee.name %>
 </p>
 
+
 <p>
   <strong>Email:</strong>
   <%= @employee.email %>
 </p>
 
-<%= link_to 'Edit', edit_employee_path(@employee) %> |
-<%= link_to 'Back', employees_path %>
+<p>
+  <strong>Surname:</strong>
+  <%= @employee.surname %>
+</p>
+
+<p>
+  <strong>Dob:</strong>
+  <%= @employee.dob %>
+</p>
+
+<p>
+  <strong>Fathername:</strong>
+  <%= @employee.fathername %>
+</p>
+
+<p>
+  <strong>Mothername:</strong>
+  <%= @employee.mothername %>
+</p>
+
+<p>
+  <strong>Address:</strong>
+  <%= @employee.address %>
+</p>
+
+<p>
+  <strong>Infosyspass:</strong>
+  <%= @employee.infosyspass %>
+</p>
+
+<p>
+  <strong>Infosysfoodcourtpass:</strong>
+  <%= @employee.infosysfoodcourtpass %>
+</p>
+
+<p>
+  <strong>Dlfpass:</strong>
+  <%= @employee.dlfpass %>
+</p>
+
+<p>
+  <strong>Policeverificationstartdate:</strong>
+  <%= @employee.policeverificationstartdate %>
+</p>
+
+<p>
+  <strong>Policeverificationenddate:</strong>
+  <%= @employee.policeverificationenddate %>
+</p>
+
+<p>
+  <strong>Policeverificationreminderdate:</strong>
+  <%= @employee.policeverificationreminderdate %>
+</p>
+
+<p>
+  <strong>Medical:</strong>
+  <%= @employee.medical %>
+</p>
+
+<p>
+  <strong>Medicalexpirydate:</strong>
+  <%= @employee.medicalexpirydate %>
+</p>
+
+<p>
+  <strong>Medicalreminderdate:</strong>
+  <%= @employee.medicalreminderdate %>
+</p>
+
+<p>
+  <strong>Arrivaldate:</strong>
+  <%= @employee.arrivaldate %>
+</p>
+
+<p>
+  <strong>Photo:</strong>
+  <%= @employee.photo %>
+</p>
+
+<p>
+  <strong>Grandfathername:</strong>
+  <%= @employee.grandfathername %>
+</p>
+
+<p>
+  <strong>Age:</strong>
+  <%= @employee.age %>
+</p>
+
+<p>
+  <strong>Pan:</strong>
+  <%= @employee.pan %>
+</p>
+
+<p>
+  <strong>Responsibility:</strong>
+  <%= @employee.responsibility %>
+</p>
+
+<p>
+  <strong>Comments:</strong>
+  <%= @employee.comments %>
+</p>
+
+<p>
+  <strong>Education:</strong>
+  <%= @employee.education %>
+</p>
+

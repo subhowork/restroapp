@@ -1,2 +1,2 @@
-json.extract! employee, :id, :name, :email, :created_at, :updated_at
+json.extract! employee, :id, :empid, :location, :name, :email, :surname, :dob, :fathername, :mothername, :address, :infosyspass, :infosysfoodcourtpass, :dlfpass, :policeverificationstartdate, :policeverificationenddate, :policeverificationreminderdate, :medical, :medicalexpirydate, :medicalreminderdate, :arrivaldate, :photo, :grandfathername, :age, :pan, :responsibility, :comments, :education, :created_at, :updated_at
 json.url employee_url(employee, format: :json)

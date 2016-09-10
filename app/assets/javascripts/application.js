@@ -11,6 +11,7 @@
 // about supported directives.
 //
 //= require jquery.min
+//= require jquery_ujs
 //= require bootstrap.min
 //= require metisMenu.min
 //= require jquery.dataTables.min
@@ -18,6 +19,8 @@
 //= require dataTables.responsive.min
 //= require dataTables.select.min
 //= require responsive.bootstrap.min
+//= require bootstrap-datepicker
+//= require Chart
 //= require custom
 
 

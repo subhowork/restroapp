@@ -1,35 +1,92 @@
-<p id="notice"><%= notice %></p>
 
 <div class="row">
-    <div class="col-lg-12">
-        <h1 class="page-header">Employee Details</h1>
+    <div class="col-lg-12 page-header">
+        <h3 style="display:inline-block;margin-top: 0;">Employee Details</h3>
+        <span class="pull-right"><%= link_to '<i class="fa fa-plus-circle fa-fw"></i> Add Employee'.html_safe, new_employee_path %></span>
     </div>
 </div>
 
 <table id ="example1"  class="table table-bordered table-striped">
   <thead>
     <tr>
-      <th><input type="checkbox"></th>
+      <th>.../</th>
+      <th>Actions</th>
+      <th>Empid</th>
+      <th>Location</th>
       <th>Name</th>
+      <th>Surname</th>
       <th>Email</th>
-      <th></th>
-      <th>     </th>
+      <th>Dob</th>      
+      <th>Age</th>
+      <th>Pan</th>
+      <th>Education</th>
+      <th>Infosyspass</th>
+      <th>Infosysfoodcourtpass</th>
+      <th>Dlfpass</th>
+      <th>Fathername</th>
+      <th>Mothername</th>
+      <th>Policeverificationstartdate</th>
+      <th>Policeverificationenddate</th>
+      <th>Policeverificationreminderdate</th>
+      <th>Medical</th>
+      <th>Medicalexpirydate</th>
+      <th>Medicalreminderdate</th>
+      <th>Arrivaldate</th>
+      <th>Photo</th>
+      <th>Grandfathername</th>
+      <th>Responsibility</th>
+      <th>Comments</th>
+      <th>Address</th>
     </tr>
   </thead>
 
   <tbody>
     <% @employees.each do |employee| %>
       <tr>
-        <td><input type="checkbox"></td>
-        <td><%= employee.name %></td>
-        <td><%= employee.email %></td>
-        <td><%= link_to 'Show', employee %> <%= link_to 'Edit', edit_employee_path(employee) %> <%= link_to 'Destroy', employee, method: :delete, data: { confirm: 'Are you sure?' } %></td>
         <td>     </td>
+        <td><%= link_to '<i class="fa fa-list fa-fw"></i>'.html_safe, employee %> <%= link_to '<i class="fa fa-pencil fa-fw"></i>'.html_safe, edit_employee_path(employee) %> <%= link_to '<i class="fa fa-trash fa-fw"></i>'.html_safe, employee, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= employee.empid %></td>
+        <td><%= employee.location %></td>
+        <td><%= employee.name %></td>
+        <td><%= employee.surname %></td>
+        <td><%= employee.email %></td>
+        <td><%= employee.dob.strftime("%Y-%m-%d") %></td>
+        <td><%= employee.age %></td>
+        <td><%= employee.pan %></td>
+        <td><%= employee.education %></td>
+        <% if employee.infosyspass == true %>
+            <td>Active</td>
+        <% else %>
+            <td>Inactive</td>
+        <% end %>
+        <% if employee.infosysfoodcourtpass == true %>
+            <td>Active</td>
+        <% else %>
+            <td>Inactive</td>
+        <% end %>
+        <% if employee.dlfpass == true %>
+            <td>Active</td>
+        <% else %>
+            <td>Inactive</td>
+        <% end %>
+        <td><%= employee.fathername %></td>
+        <td><%= employee.mothername %></td>
+        <td><%= employee.policeverificationstartdate.strftime("%Y-%m-%d") %></td>
+        <td><%= employee.policeverificationenddate.strftime("%Y-%m-%d") %></td>
+        <td><%= employee.policeverificationreminderdate.strftime("%Y-%m-%d") %></td>
+        <td><%= employee.medical.strftime("%Y-%m-%d") %></td>
+        <td><%= employee.medicalexpirydate.strftime("%Y-%m-%d") %></td>
+        <td><%= employee.medicalreminderdate.strftime("%Y-%m-%d") %></td>
+        <td><%= employee.arrivaldate.strftime("%Y-%m-%d") %></td>
+        <td><%= employee.photo %></td>
+        <td><%= employee.grandfathername %></td>
+        <td><%= employee.responsibility %></td>
+        <td><%= employee.comments %></td>
+        <td><%= employee.address %></td>
+         
       </tr>
     <% end %>
   </tbody>
 </table>
 
 <br>
-
-<%= link_to 'New Employee', new_employee_path %>
