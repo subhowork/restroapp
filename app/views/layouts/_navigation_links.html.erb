@@ -1,3 +1,7 @@
 <%# add navigation links to this file %>
-<li><%= link_to 'About', page_path('about') %></li>
+<li class="active"><%= link_to '<i class="fa fa-home fa-fw"></i> Home'.html_safe, root_path %></li>
+<li><%= link_to '<i class="fa fa-dashboard fa-fw"></i> Dashboard'.html_safe, root_path %></li>
+<li><%= link_to '<i class="fa fa-users fa-fw"></i> Employees'.html_safe, employees_path %></li>
+<!-- <li><%= link_to 'About', page_path('about') %></li>
 <li><%= link_to 'Employees', employees_path %></li>
+ -->

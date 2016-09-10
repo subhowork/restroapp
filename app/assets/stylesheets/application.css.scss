@@ -10,14 +10,10 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *
- *= require_tree .
+ *= require bootstrap.min
+ *= require font-awesome.min
+ *= require metisMenu.min
+ *= require custom
+ 
  *= require_self
  */
-
-body{
-	margin:0;
-}
-
-a:visited {
-    color: #fff;
-}

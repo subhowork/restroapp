@@ -1,0 +1,1725 @@
+Started GET "/employees" for ::1 at 2016-09-09 21:57:47 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (2.0ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by EmployeesController#index as HTML
+  Rendering employees/index.html.erb within layouts/application
+  [1m[36mEmployee Load (2.0ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  Rendered employees/index.html.erb within layouts/application (64.0ms)
+  Rendered layouts/_navigation_links.html.erb (1.0ms)
+  Rendered layouts/_navigation.html.erb (42.0ms)
+  Rendered layouts/_messages.html.erb (4.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 31880ms (Views: 31755.9ms | ActiveRecord: 15.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-09 22:02:50 +0530
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  Rendered visitors/index.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_navigation_links.html.erb (1.0ms)
+  Rendered layouts/_navigation.html.erb (46.0ms)
+  Rendered layouts/_messages.html.erb (3.0ms)
+  Rendered layouts/_footer.html.erb (2.0ms)
+Completed 200 OK in 790ms (Views: 738.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/employees" for ::1 at 2016-09-09 22:13:32 +0530
+Processing by EmployeesController#index as HTML
+  Rendering employees/index.html.erb within layouts/application
+  [1m[36mEmployee Load (3.0ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  Rendered employees/index.html.erb within layouts/application (10.0ms)
+  Rendered layouts/_navigation_links.html.erb (2.0ms)
+  Rendered layouts/_navigation.html.erb (48.0ms)
+  Rendered layouts/_messages.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 891ms (Views: 838.5ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/pages/about" for ::1 at 2016-09-09 22:13:35 +0530
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"about"}
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_navigation_links.html.erb (3.0ms)
+  Rendered layouts/_navigation.html.erb (54.0ms)
+  Rendered layouts/_messages.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 725ms (Views: 723.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-09 22:13:36 +0530
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  Rendered visitors/index.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_navigation_links.html.erb (3.0ms)
+  Rendered layouts/_navigation.html.erb (57.0ms)
+  Rendered layouts/_messages.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 1086ms (Views: 1028.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-09 22:17:29 +0530
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  Rendered visitors/index.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_navigation_links.html.erb (2.0ms)
+  Rendered layouts/_navigation.html.erb (42.0ms)
+  Rendered layouts/_messages.html.erb (3.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 1433ms (Views: 1388.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-09 22:19:05 +0530
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  Rendered visitors/index.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_navigation_links.html.erb (2.0ms)
+  Rendered layouts/_navigation.html.erb (45.0ms)
+  Rendered layouts/_messages.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 1060ms (Views: 1008.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/employees" for ::1 at 2016-09-09 22:19:25 +0530
+Processing by EmployeesController#index as HTML
+  Rendering employees/index.html.erb within layouts/application
+  [1m[36mEmployee Load (3.0ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  Rendered employees/index.html.erb within layouts/application (9.0ms)
+  Rendered layouts/_navigation_links.html.erb (2.0ms)
+  Rendered layouts/_navigation.html.erb (68.1ms)
+  Rendered layouts/_messages.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (2.0ms)
+Completed 200 OK in 986ms (Views: 938.1ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/employees" for ::1 at 2016-09-09 22:22:07 +0530
+Processing by EmployeesController#index as HTML
+  Rendering employees/index.html.erb within layouts/application
+  [1m[36mEmployee Load (2.0ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  Rendered employees/index.html.erb within layouts/application (8.0ms)
+  Rendered layouts/_navigation_links.html.erb (2.0ms)
+  Rendered layouts/_navigation.html.erb (43.0ms)
+  Rendered layouts/_messages.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 1560ms (Views: 1512.5ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/employees" for ::1 at 2016-09-09 22:24:46 +0530
+Processing by EmployeesController#index as HTML
+  Rendering employees/index.html.erb within layouts/application
+  [1m[36mEmployee Load (1.0ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  Rendered employees/index.html.erb within layouts/application (8.0ms)
+  Rendered layouts/_navigation_links.html.erb (2.0ms)
+  Rendered layouts/_navigation.html.erb (44.0ms)
+  Rendered layouts/_messages.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 1201ms (Views: 1141.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/employees" for ::1 at 2016-09-09 22:25:26 +0530
+Processing by EmployeesController#index as HTML
+  Rendering employees/index.html.erb within layouts/application
+  [1m[36mEmployee Load (1.0ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  Rendered employees/index.html.erb within layouts/application (8.0ms)
+  Rendered layouts/_navigation_links.html.erb (3.0ms)
+  Rendered layouts/_navigation.html.erb (56.0ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 863ms (Views: 810.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/pages/about" for ::1 at 2016-09-09 22:25:28 +0530
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"about"}
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_navigation_links.html.erb (1.0ms)
+  Rendered layouts/_navigation.html.erb (40.0ms)
+  Rendered layouts/_messages.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 535ms (Views: 534.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-09 22:25:30 +0530
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  Rendered visitors/index.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_navigation_links.html.erb (2.0ms)
+  Rendered layouts/_navigation.html.erb (44.0ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 525ms (Views: 475.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/employees" for ::1 at 2016-09-09 22:25:32 +0530
+Processing by EmployeesController#index as HTML
+  Rendering employees/index.html.erb within layouts/application
+  [1m[36mEmployee Load (1.0ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  Rendered employees/index.html.erb within layouts/application (8.0ms)
+  Rendered layouts/_navigation_links.html.erb (2.0ms)
+  Rendered layouts/_navigation.html.erb (44.0ms)
+  Rendered layouts/_messages.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 585ms (Views: 530.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/employees" for ::1 at 2016-09-09 22:42:24 +0530
+Processing by EmployeesController#index as HTML
+  Rendering employees/index.html.erb within layouts/application
+  [1m[36mEmployee Load (2.0ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  Rendered employees/index.html.erb within layouts/application (8.0ms)
+  Rendered layouts/_navigation_links.html.erb (2.0ms)
+  Rendered layouts/_navigation.html.erb (56.0ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 561ms (Views: 516.1ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/employees" for ::1 at 2016-09-09 22:52:55 +0530
+Processing by EmployeesController#index as HTML
+  Rendering employees/index.html.erb within layouts/application
+  [1m[36mEmployee Load (2.0ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  Rendered employees/index.html.erb within layouts/application (7.0ms)
+  Rendered layouts/_navigation_links.html.erb (2.0ms)
+  Rendered layouts/_navigation.html.erb (43.0ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 597ms (Views: 545.3ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/fonts/fontawesome-webfont.woff2?v=4.6.3" for ::1 at 2016-09-09 22:52:56 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/fontawesome-webfont.woff2"):
+  
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.1.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `call'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.0ms)
+  Rendered collection of C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [10 times] (64.0ms)
+  Rendered C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (120.1ms)
+  Rendering C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.0ms)
+  Rendered C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (5313.8ms)
+Started GET "/fonts/fontawesome-webfont.woff?v=4.6.3" for ::1 at 2016-09-09 22:53:12 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/fontawesome-webfont.woff"):
+  
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.1.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `call'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.0ms)
+  Rendered collection of C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [10 times] (11.0ms)
+  Rendered C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (4.0ms)
+  Rendering C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.0ms)
+  Rendered C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (5145.7ms)
+Started GET "/fonts/fontawesome-webfont.ttf?v=4.6.3" for ::1 at 2016-09-09 22:53:28 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/fontawesome-webfont.ttf"):
+  
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.1.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `call'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.0ms)
+  Rendered collection of C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [10 times] (11.0ms)
+  Rendered C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (3.0ms)
+  Rendering C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (5.0ms)
+  Rendered C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (5092.6ms)
+Started GET "/employees" for ::1 at 2016-09-09 22:53:48 +0530
+Processing by EmployeesController#index as HTML
+  Rendering employees/index.html.erb within layouts/application
+  [1m[36mEmployee Load (2.0ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  Rendered employees/index.html.erb within layouts/application (8.0ms)
+  Rendered layouts/_navigation_links.html.erb (2.0ms)
+  Rendered layouts/_navigation.html.erb (56.0ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 585ms (Views: 529.7ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/fonts/fontawesome-webfont.woff2?v=4.6.3" for ::1 at 2016-09-09 22:53:50 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/fontawesome-webfont.woff2"):
+  
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.1.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `call'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.0ms)
+  Rendered collection of C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [10 times] (11.0ms)
+  Rendered C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (4.0ms)
+  Rendering C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.0ms)
+  Rendered C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (5085.6ms)
+Started GET "/fonts/fontawesome-webfont.woff?v=4.6.3" for ::1 at 2016-09-09 22:54:06 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/fontawesome-webfont.woff"):
+  
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.1.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `call'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.0ms)
+  Rendered collection of C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [10 times] (10.0ms)
+  Rendered C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (5.0ms)
+  Rendering C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.0ms)
+  Rendered C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (5433.9ms)
+Started GET "/fonts/fontawesome-webfont.ttf?v=4.6.3" for ::1 at 2016-09-09 22:54:23 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/fontawesome-webfont.ttf"):
+  
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.1.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `call'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.0ms)
+  Rendered collection of C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [10 times] (12.0ms)
+  Rendered C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (4.0ms)
+  Rendering C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.0ms)
+  Rendered C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (5361.8ms)
+Started GET "/employees" for ::1 at 2016-09-09 23:04:54 +0530
+Processing by EmployeesController#index as HTML
+  Rendering employees/index.html.erb within layouts/application
+  [1m[36mEmployee Load (2.0ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  Rendered employees/index.html.erb within layouts/application (8.0ms)
+  Rendered layouts/_navigation_links.html.erb (2.0ms)
+  Rendered layouts/_navigation.html.erb (57.0ms)
+  Rendered layouts/_messages.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 709ms (Views: 653.7ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/fonts/fontawesome-webfont.woff2?v=4.6.3" for ::1 at 2016-09-09 23:04:55 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/fontawesome-webfont.woff2"):
+  
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.1.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `call'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.0ms)
+  Rendered collection of C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [10 times] (14.0ms)
+  Rendered C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (4.0ms)
+  Rendering C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (6.0ms)
+  Rendered C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (5253.7ms)
+Started GET "/fonts/fontawesome-webfont.woff?v=4.6.3" for ::1 at 2016-09-09 23:05:12 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/fontawesome-webfont.woff"):
+  
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.1.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `call'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.0ms)
+  Rendered collection of C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [10 times] (12.0ms)
+  Rendered C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (4.0ms)
+  Rendering C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.0ms)
+  Rendered C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (5534.0ms)
+Started GET "/fonts/fontawesome-webfont.ttf?v=4.6.3" for ::1 at 2016-09-09 23:05:28 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/fontawesome-webfont.ttf"):
+  
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.1.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `call'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (10.0ms)
+  Rendered collection of C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [10 times] (12.0ms)
+  Rendered C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (4.0ms)
+  Rendering C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (5.0ms)
+  Rendered C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (5291.8ms)
+Started GET "/fonts" for ::1 at 2016-09-09 23:10:14 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/fonts"):
+  
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.1.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `call'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.0ms)
+  Rendered collection of C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [10 times] (11.0ms)
+  Rendered C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (5.0ms)
+  Rendering C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (8.0ms)
+  Rendered C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (5473.9ms)
+Started GET "/" for ::1 at 2016-09-09 23:10:23 +0530
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  Rendered visitors/index.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_navigation_links.html.erb (1.0ms)
+  Rendered layouts/_navigation.html.erb (50.0ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 7413ms (Views: 6226.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fonts/fontawesome-webfont.woff2?v=4.6.3" for ::1 at 2016-09-09 23:10:33 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/fontawesome-webfont.woff2"):
+  
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.1.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `call'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.0ms)
+  Rendered collection of C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [10 times] (14.0ms)
+  Rendered C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (5.0ms)
+  Rendering C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (5.0ms)
+  Rendered C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (5663.0ms)
+Started GET "/fonts/fontawesome-webfont.woff?v=4.6.3" for ::1 at 2016-09-09 23:10:55 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/fontawesome-webfont.woff"):
+  
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.1.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `call'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (9.0ms)
+  Rendered collection of C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [10 times] (17.0ms)
+  Rendered C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (5.0ms)
+  Rendering C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (8.0ms)
+  Rendered C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (7419.3ms)
+Started GET "/fonts/fontawesome-webfont.ttf?v=4.6.3" for ::1 at 2016-09-09 23:11:15 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/fontawesome-webfont.ttf"):
+  
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.1.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `call'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.0ms)
+  Rendered collection of C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [10 times] (13.0ms)
+  Rendered C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (37.0ms)
+  Rendering C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (5.0ms)
+  Rendered C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (5553.9ms)
+Started GET "/" for ::1 at 2016-09-09 23:21:21 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (2.0ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  Rendered visitors/index.html.erb within layouts/application (11.0ms)
+  Rendered layouts/_navigation_links.html.erb (2.0ms)
+  Rendered layouts/_navigation.html.erb (43.0ms)
+  Rendered layouts/_messages.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 17851ms (Views: 17760.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-09 23:23:40 +0530
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  Rendered visitors/index.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_navigation_links.html.erb (1.0ms)
+  Rendered layouts/_navigation.html.erb (43.0ms)
+  Rendered layouts/_messages.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 579ms (Views: 529.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-09 23:24:50 +0530
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  Rendered visitors/index.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_navigation_links.html.erb (2.0ms)
+  Rendered layouts/_navigation.html.erb (42.0ms)
+  Rendered layouts/_messages.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 596ms (Views: 550.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-09 23:25:00 +0530
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  Rendered visitors/index.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_navigation_links.html.erb (1.0ms)
+  Rendered layouts/_navigation.html.erb (42.0ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 608ms (Views: 561.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-09 23:25:52 +0530
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  Rendered visitors/index.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_navigation_links.html.erb (1.0ms)
+  Rendered layouts/_navigation.html.erb (46.0ms)
+  Rendered layouts/_messages.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (2.0ms)
+Completed 200 OK in 612ms (Views: 559.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-09 23:32:14 +0530
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  Rendered visitors/index.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_navigation_links.html.erb (3.0ms)
+  Rendered layouts/_navigation.html.erb (62.0ms)
+  Rendered layouts/_messages.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 721ms (Views: 671.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-09 23:34:48 +0530
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  Rendered visitors/index.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_navigation_links.html.erb (2.0ms)
+  Rendered layouts/_navigation.html.erb (58.0ms)
+  Rendered layouts/_messages.html.erb (3.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 648ms (Views: 584.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-09 23:37:15 +0530
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  Rendered visitors/index.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_navigation_links.html.erb (2.0ms)
+  Rendered layouts/_navigation.html.erb (73.0ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 845ms (Views: 796.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-09 23:38:28 +0530
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  Rendered visitors/index.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_navigation_links.html.erb (2.0ms)
+  Rendered layouts/_navigation.html.erb (69.1ms)
+  Rendered layouts/_messages.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 653ms (Views: 609.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-09 23:38:48 +0530
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  Rendered visitors/index.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_navigation_links.html.erb (3.0ms)
+  Rendered layouts/_navigation.html.erb (48.0ms)
+  Rendered layouts/_messages.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 453ms (Views: 410.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-09 23:38:58 +0530
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  Rendered visitors/index.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_navigation_links.html.erb (2.0ms)
+  Rendered layouts/_navigation.html.erb (42.1ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 464ms (Views: 419.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-10 09:16:58 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (2.0ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  Rendered visitors/index.html.erb within layouts/application (9.0ms)
+  Rendered layouts/_sidebar.html.erb (1.0ms)
+  Rendered layouts/_navigation_links.html.erb (3.0ms)
+  Rendered layouts/_navigation.html.erb (56.0ms)
+  Rendered layouts/_messages.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 2192ms (Views: 2093.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-10 09:20:37 +0530
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  Rendered visitors/index.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_sidebar.html.erb (1.0ms)
+  Rendered layouts/_navigation_links.html.erb (2.0ms)
+  Rendered layouts/_navigation.html.erb (52.0ms)
+  Rendered layouts/_messages.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 534ms (Views: 483.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-10 09:21:12 +0530
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  Rendered visitors/index.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_navigation_links.html.erb (2.0ms)
+  Rendered layouts/_navigation.html.erb (43.0ms)
+  Rendered layouts/_sidebar.html.erb (1.0ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (42.0ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (2.0ms)
+Completed 200 OK in 748ms (Views: 702.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-10 09:21:20 +0530
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  Rendered visitors/index.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_navigation_links.html.erb (2.0ms)
+  Rendered layouts/_navigation.html.erb (45.0ms)
+  Rendered layouts/_sidebar.html.erb (2.0ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (43.0ms)
+  Rendered layouts/_messages.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (2.0ms)
+Completed 200 OK in 625ms (Views: 577.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-10 09:34:27 +0530
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  Rendered visitors/index.html.erb within layouts/application (323.6ms)
+  Rendered layouts/_navigation.html.erb (431.1ms)
+Completed 500 Internal Server Error in 10383ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (D:/Study/Projects/Ruby/Rails/git/restroapp/app/views/layouts/_navigation.html.erb:29: syntax error, unexpected '=', expecting ')'
+...ge Portal" ,root_path ,:class = "fa fa-home fa-fw" );@output...
+...                               ^):
+  
+app/views/layouts/_navigation.html.erb:29: syntax error, unexpected '=', expecting ')'
+app/views/layouts/application.html.erb:17:in `_app_views_layouts_application_html_erb__272707618_49138620'
+  Rendering C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (88.0ms)
+  Rendering C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (36.2ms)
+  Rendering C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (26.4ms)
+  Rendered C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (6099.6ms)
+Started GET "/" for ::1 at 2016-09-10 09:35:49 +0530
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  Rendered visitors/index.html.erb within layouts/application (19.6ms)
+  Rendered layouts/_navigation_links.html.erb (112.4ms)
+  Rendered layouts/_navigation.html.erb (1179.1ms)
+Completed 500 Internal Server Error in 2209ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `action' for #<#<Class:0x3523b60>:0x9ab1140>):
+    26: <ul class="nav navbar-nav navbar-left navbar-top-links">
+    27:     <!-- <li><a href="#"><i class="fa fa-home fa-fw"></i> Restro Manage Portal</a></li> -->
+    28:     <li><%= action "Restro Manage Portal" ,root_path ,:class => "fa fa-home fa-fw" %></li>
+    29:     <li><%= link_to 'Home', root_path %></li>
+    30: </ul>
+    31: <ul class="nav navbar-right navbar-top-links">
+    32:     <li class="dropdown">
+  
+app/views/layouts/_navigation.html.erb:29:in `_app_views_layouts__navigation_html_erb___870084193_75198276'
+app/views/layouts/application.html.erb:17:in `_app_views_layouts_application_html_erb__272707618_81041268'
+  Rendering C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (55.7ms)
+  Rendering C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (18.6ms)
+  Rendering C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.9ms)
+  Rendered C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (4346.5ms)
+Started GET "/" for ::1 at 2016-09-10 09:49:42 +0530
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  Rendered visitors/index.html.erb within layouts/application (165.1ms)
+  Rendered layouts/_navigation.html.erb (148.2ms)
+Completed 500 Internal Server Error in 3537ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (D:/Study/Projects/Ruby/Rails/git/restroapp/app/views/layouts/_navigation.html.erb:48: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  
+app/views/layouts/_navigation.html.erb:48: syntax error, unexpected keyword_ensure, expecting end-of-input
+app/views/layouts/application.html.erb:17:in `_app_views_layouts_application_html_erb__272707618_45397116'
+  Rendering C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (71.0ms)
+  Rendering C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (38.1ms)
+  Rendering C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.0ms)
+  Rendered C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (3719.6ms)
+Started GET "/" for ::1 at 2016-09-10 10:04:04 +0530
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  Rendered visitors/index.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_navigation_links.html.erb (2.0ms)
+  Rendered layouts/_navigation.html.erb (97.0ms)
+Completed 500 Internal Server Error in 491ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `stringify_keys' for "/":String):
+    26: <ul class="nav navbar-nav navbar-left navbar-top-links">
+    27:     <!-- <li><a href="#"><i class="fa fa-home fa-fw"></i> Restro Manage Portal</a></li> -->
+    28:     <li><%= link_to "Restro Manage Portal" ,root_path do %><i class="fa fa-home fa-fw"></i><% end %></li>
+    29:     <li><%= link_to 'Home', root_path %></li>
+    30: </ul>
+    31: <ul class="nav navbar-right navbar-top-links">
+    32:     <li class="dropdown">
+  
+app/views/layouts/_navigation.html.erb:29:in `_app_views_layouts__navigation_html_erb___870084193_47127756'
+app/views/layouts/application.html.erb:17:in `_app_views_layouts_application_html_erb__272707618_74851320'
+  Rendering C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (28.0ms)
+  Rendering C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (12.0ms)
+  Rendering C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (3477.5ms)
+Started GET "/" for ::1 at 2016-09-10 10:05:43 +0530
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  Rendered visitors/index.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_navigation_links.html.erb (2.0ms)
+  Rendered layouts/_navigation.html.erb (43.0ms)
+  Rendered layouts/_sidebar.html.erb (1.0ms)
+  Rendered layouts/_navigation_links.html.erb (1.0ms)
+  Rendered layouts/_navigation.html.erb (38.0ms)
+  Rendered layouts/_messages.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 614ms (Views: 563.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-10 10:09:06 +0530
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  Rendered visitors/index.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_navigation_links.html.erb (2.0ms)
+  Rendered layouts/_navigation.html.erb (115.1ms)
+Completed 500 Internal Server Error in 433ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `stringify_keys' for "/":String):
+    27:     <!-- <li><a href="#"><i class="fa fa-home fa-fw"></i> Restro Manage Portal</a></li> -->
+    28:     <li>
+    29:       <% link_to "Restro Manage Portal", root_path do %>
+    30:         <strong>Awesome link</strong>
+    31:       <% end %>
+    32:     </li>
+    33:     <li><%= link_to 'Home', root_path %></li>
+  
+app/views/layouts/_navigation.html.erb:30:in `_app_views_layouts__navigation_html_erb___870084193_30155052'
+app/views/layouts/application.html.erb:17:in `_app_views_layouts_application_html_erb__272707618_56642868'
+  Rendering C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (26.0ms)
+  Rendering C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (19.0ms)
+  Rendering C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.0ms)
+  Rendered C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (3456.5ms)
+Started GET "/" for ::1 at 2016-09-10 10:15:57 +0530
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  Rendered visitors/index.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_navigation.html.erb (36.0ms)
+Completed 500 Internal Server Error in 388ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (D:/Study/Projects/Ruby/Rails/git/restroapp/app/views/layouts/_navigation.html.erb:29: syntax error, unexpected '<', expecting ')'
+...    <li>'.freeze; link_to raw(<i class="fa fa-home fa-fw"></...
+...                               ^
+D:/Study/Projects/Ruby/Rails/git/restroapp/app/views/layouts/_navigation.html.erb:29: syntax error, unexpected '<'
+...w(<i class="fa fa-home fa-fw"></i>Restro Manage Portal), roo...
+...                               ^
+D:/Study/Projects/Ruby/Rails/git/restroapp/app/views/layouts/_navigation.html.erb:29: unknown regexp option - l
+unmatched close parenthesis: /i>Restro Manage Portal), root_path ;@output_buffer.safe_append='</i
+D:/Study/Projects/Ruby/Rails/git/restroapp/app/views/layouts/_navigation.html.erb:30: syntax error, unexpected '<'
+    <li>'.freeze;@output_buffer.ap...
+     ^
+D:/Study/Projects/Ruby/Rails/git/restroapp/app/views/layouts/_navigation.html.erb:30: syntax error, unexpected tCONSTANT, expecting keyword_end
+...t_buffer.append=( link_to 'Home', root_path );@output_buffer...
+...                               ^
+D:/Study/Projects/Ruby/Rails/git/restroapp/app/views/layouts/_navigation.html.erb:31: unknown regexp option - l
+D:/Study/Projects/Ruby/Rails/git/restroapp/app/views/layouts/_navigation.html.erb:32: syntax error, unexpected '<'
+<ul class="nav navbar-right navbar-top-links">
+ ^
+D:/Study/Projects/Ruby/Rails/git/restroapp/app/views/layouts/_navigation.html.erb:33: syntax error, unexpected '<'
+    <li class="dropdown">
+     ^
+D:/Study/Projects/Ruby/Rails/git/restroapp/app/views/layouts/_navigation.html.erb:34: syntax error, unexpected '<'
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+         ^
+D:/Study/Projects/Ruby/Rails/git/restroapp/app/views/layouts/_navigation.html.erb:34: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                       ^
+D:/Study/Projects/Ruby/Rails/git/restroapp/app/views/layouts/_navigation.html.erb:34: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                                              ^
+D:/Study/Projects/Ruby/Rails/git/restroapp/app/views/layouts/_navigation.html.erb:35: syntax error, unexpected '<'
+            <i class="fa fa-user fa-fw"></...
+             ^
+D:/Study/Projects/Ruby/Rails/git/restroapp/app/views/layouts/_navigation.html.erb:35: syntax error, unexpected '<'
+...  <i class="fa fa-user fa-fw"></i> Admin <b class="caret"></...
+...                               ^
+D:/Study/Projects/Ruby/Rails/git/restroapp/app/views/layouts/_navigation.html.erb:35: unknown regexp option - b
+D:/Study/Projects/Ruby/Rails/git/restroapp/app/views/layouts/_navigation.html.erb:36: syntax error, unexpected '<'
+        </a>
+         ^
+D:/Study/Projects/Ruby/Rails/git/restroapp/app/views/layouts/_navigation.html.erb:38: syntax error, unexpected tCONSTANT, expecting keyword_do or '{' or '('
+...a-user fa-fw"></i> User Profile</a>
+...                               ^
+D:/Study/Projects/Ruby/Rails/git/restroapp/app/views/layouts/_navigation.html.erb:39: unknown regexp option - l
+D:/Study/Projects/Ruby/Rails/git/restroapp/app/views/layouts/_navigation.html.erb:40: syntax error, unexpected '<'
+            <li><a href="#"><i class="fa f...
+             ^
+D:/Study/Projects/Ruby/Rails/git/restroapp/app/views/layouts/_navigation.html.erb:40: syntax error, unexpected '<'
+            <li><a href="#"><i class="fa fa-gear fa-fw"></...
+                             ^
+D:/Study/Projects/Ruby/Rails/git/restroapp/app/views/layouts/_navigation.html.erb:40: syntax error, unexpected '<'
+..."><i class="fa fa-gear fa-fw"></i> Settings</a>
+...                               ^
+D:/Study/Projects/Ruby/Rails/git/restroapp/app/views/layouts/_navigation.html.erb:40: unknown regexp option - a
+D:/Study/Projects/Ruby/Rails/git/restroapp/app/views/layouts/_navigation.html.erb:41: syntax error, unexpected '<'
+            </li>
+             ^
+D:/Study/Projects/Ruby/Rails/git/restroapp/app/views/layouts/_navigation.html.erb:42: unknown regexp option - l
+D:/Study/Projects/Ruby/Rails/git/restroapp/app/views/layouts/_navigation.html.erb:43: syntax error, unexpected '<'
+            <li><a href="#"><i class="fa f...
+             ^
+D:/Study/Projects/Ruby/Rails/git/restroapp/app/views/layouts/_navigation.html.erb:43: syntax error, unexpected '<'
+            <li><a href="#"><i class="fa fa-sign-out fa-fw...
+                             ^
+D:/Study/Projects/Ruby/Rails/git/restroapp/app/views/layouts/_navigation.html.erb:43: syntax error, unexpected '<'
+... class="fa fa-sign-out fa-fw"></i> Logout</a>
+...                               ^
+D:/Study/Projects/Ruby/Rails/git/restroapp/app/views/layouts/_navigation.html.erb:43: unknown regexp option - a
+D:/Study/Projects/Ruby/Rails/git/restroapp/app/views/layouts/_navigation.html.erb:44: syntax error, unexpected '<'
+            </li>
+             ^
+D:/Study/Projects/Ruby/Rails/git/restroapp/app/views/layouts/_navigation.html.erb:45: unknown regexp option - l
+D:/Study/Projects/Ruby/Rails/git/restroapp/app/views/layouts/_navigation.html.erb:46: syntax error, unexpected '<'
+    </li>
+     ^
+D:/Study/Projects/Ruby/Rails/git/restroapp/app/views/layouts/_navigation.html.erb:47: unknown regexp option - l
+D:/Study/Projects/Ruby/Rails/git/restroapp/app/views/layouts/_navigation.html.erb:47: unterminated string meets end of file
+D:/Study/Projects/Ruby/Rails/git/restroapp/app/views/layouts/_navigation.html.erb:47: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/views/layouts/_navigation.html.erb:29: syntax error, unexpected '<', expecting ')'
+app/views/layouts/_navigation.html.erb:29: syntax error, unexpected '<'
+app/views/layouts/_navigation.html.erb:29: unknown regexp option - l
+app/views/layouts/_navigation.html.erb:30: syntax error, unexpected '<'
+app/views/layouts/_navigation.html.erb:30: syntax error, unexpected tCONSTANT, expecting keyword_end
+app/views/layouts/_navigation.html.erb:31: unknown regexp option - l
+app/views/layouts/_navigation.html.erb:32: syntax error, unexpected '<'
+app/views/layouts/_navigation.html.erb:33: syntax error, unexpected '<'
+app/views/layouts/_navigation.html.erb:34: syntax error, unexpected '<'
+app/views/layouts/_navigation.html.erb:34: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+app/views/layouts/_navigation.html.erb:34: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+app/views/layouts/_navigation.html.erb:35: syntax error, unexpected '<'
+app/views/layouts/_navigation.html.erb:35: syntax error, unexpected '<'
+app/views/layouts/_navigation.html.erb:35: unknown regexp option - b
+app/views/layouts/_navigation.html.erb:36: syntax error, unexpected '<'
+app/views/layouts/_navigation.html.erb:38: syntax error, unexpected tCONSTANT, expecting keyword_do or '{' or '('
+app/views/layouts/_navigation.html.erb:39: unknown regexp option - l
+app/views/layouts/_navigation.html.erb:40: syntax error, unexpected '<'
+app/views/layouts/_navigation.html.erb:40: syntax error, unexpected '<'
+app/views/layouts/_navigation.html.erb:40: syntax error, unexpected '<'
+app/views/layouts/_navigation.html.erb:40: unknown regexp option - a
+app/views/layouts/_navigation.html.erb:41: syntax error, unexpected '<'
+app/views/layouts/_navigation.html.erb:42: unknown regexp option - l
+app/views/layouts/_navigation.html.erb:43: syntax error, unexpected '<'
+app/views/layouts/_navigation.html.erb:43: syntax error, unexpected '<'
+app/views/layouts/_navigation.html.erb:43: syntax error, unexpected '<'
+app/views/layouts/_navigation.html.erb:43: unknown regexp option - a
+app/views/layouts/_navigation.html.erb:44: syntax error, unexpected '<'
+app/views/layouts/_navigation.html.erb:45: unknown regexp option - l
+app/views/layouts/_navigation.html.erb:46: syntax error, unexpected '<'
+app/views/layouts/_navigation.html.erb:47: unknown regexp option - l
+app/views/layouts/_navigation.html.erb:47: unterminated string meets end of file
+app/views/layouts/_navigation.html.erb:47: syntax error, unexpected end-of-input, expecting keyword_end
+app/views/layouts/application.html.erb:17:in `_app_views_layouts_application_html_erb__272707618_75961440'
+  Rendering C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (121.1ms)
+  Rendering C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (72.1ms)
+  Rendering C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (80.0ms)
+  Rendered C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (4153.0ms)
+Started GET "/" for ::1 at 2016-09-10 10:19:19 +0530
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  Rendered visitors/index.html.erb within layouts/application (23.1ms)
+  Rendered layouts/_navigation_links.html.erb (2.0ms)
+  Rendered layouts/_navigation.html.erb (159.1ms)
+Completed 500 Internal Server Error in 501ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `stringify_keys' for "/":String):
+    27:     <!-- <li><a href="#"><i class="fa fa-home fa-fw"></i> Restro Manage Portal</a></li> -->
+    28:     <li>
+    29:       <%= link_to "asdasdasd", root_path do %>
+    30:          <span>add questions to</span>
+    31:       <% end %>
+    32:     </li>   
+    33:     <li><%= link_to 'Home', root_path %></li>
+  
+app/views/layouts/_navigation.html.erb:30:in `_app_views_layouts__navigation_html_erb___870084193_83277864'
+app/views/layouts/application.html.erb:17:in `_app_views_layouts_application_html_erb__272707618_80420952'
+  Rendering C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (104.0ms)
+  Rendering C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (63.0ms)
+  Rendering C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (48.0ms)
+  Rendered C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (3870.7ms)
+Started GET "/" for ::1 at 2016-09-10 10:25:13 +0530
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  Rendered visitors/index.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_navigation_links.html.erb (6.0ms)
+  Rendered layouts/_navigation.html.erb (88.1ms)
+  Rendered layouts/_sidebar.html.erb (1.0ms)
+  Rendered layouts/_navigation_links.html.erb (1.0ms)
+  Rendered layouts/_navigation.html.erb (41.0ms)
+  Rendered layouts/_messages.html.erb (37.0ms)
+  Rendered layouts/_footer.html.erb (40.0ms)
+Completed 200 OK in 815ms (Views: 758.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-10 10:25:25 +0530
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  Rendered visitors/index.html.erb within layouts/application (31.0ms)
+  Rendered layouts/_navigation_links.html.erb (9.0ms)
+  Rendered layouts/_navigation.html.erb (68.1ms)
+  Rendered layouts/_sidebar.html.erb (1.0ms)
+  Rendered layouts/_navigation_links.html.erb (1.0ms)
+  Rendered layouts/_navigation.html.erb (40.0ms)
+  Rendered layouts/_messages.html.erb (38.0ms)
+  Rendered layouts/_footer.html.erb (29.0ms)
+Completed 200 OK in 829ms (Views: 781.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-10 10:26:28 +0530
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  Rendered visitors/index.html.erb within layouts/application (36.0ms)
+  Rendered layouts/_navigation_links.html.erb (1.0ms)
+  Rendered layouts/_navigation.html.erb (56.0ms)
+  Rendered layouts/_sidebar.html.erb (2.0ms)
+  Rendered layouts/_navigation_links.html.erb (1.0ms)
+  Rendered layouts/_navigation.html.erb (40.1ms)
+  Rendered layouts/_messages.html.erb (16.1ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 852ms (Views: 801.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-10 10:26:31 +0530
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  Rendered visitors/index.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_navigation_links.html.erb (9.0ms)
+  Rendered layouts/_navigation.html.erb (52.0ms)
+  Rendered layouts/_sidebar.html.erb (2.0ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (39.0ms)
+  Rendered layouts/_messages.html.erb (30.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 942ms (Views: 881.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-10 10:29:18 +0530
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  Rendered visitors/index.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_navigation_links.html.erb (2.0ms)
+  Rendered layouts/_navigation.html.erb (52.0ms)
+  Rendered layouts/_sidebar.html.erb (11.0ms)
+  Rendered layouts/_navigation_links.html.erb (1.0ms)
+  Rendered layouts/_navigation.html.erb (43.0ms)
+  Rendered layouts/_messages.html.erb (10.0ms)
+  Rendered layouts/_footer.html.erb (16.0ms)
+Completed 200 OK in 723ms (Views: 681.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-10 10:39:06 +0530
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  Rendered visitors/index.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_navigation.html.erb (34.0ms)
+  Rendered layouts/_navigation_links.html.erb (34.0ms)
+  Rendered layouts/_sidebar.html.erb (97.1ms)
+  Rendered layouts/_navigation.html.erb (0.0ms)
+  Rendered layouts/_messages.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 781ms (Views: 726.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-10 10:39:37 +0530
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  Rendered visitors/index.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_navigation_links.html.erb (42.0ms)
+  Rendered layouts/_sidebar.html.erb (83.1ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_messages.html.erb (15.0ms)
+  Rendered layouts/_footer.html.erb (12.0ms)
+Completed 200 OK in 652ms (Views: 584.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-10 10:40:25 +0530
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  Rendered visitors/index.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_navigation.html.erb (2.0ms)
+  Rendered layouts/_navigation_links.html.erb (17.0ms)
+  Rendered layouts/_sidebar.html.erb (88.1ms)
+  Rendered layouts/_navigation.html.erb (0.0ms)
+  Rendered layouts/_messages.html.erb (37.1ms)
+  Rendered layouts/_footer.html.erb (16.0ms)
+Completed 200 OK in 687ms (Views: 641.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-10 10:41:30 +0530
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  Rendered visitors/index.html.erb within layouts/application (45.0ms)
+  Rendered layouts/_navigation.html.erb (60.0ms)
+  Rendered layouts/_navigation_links.html.erb (32.0ms)
+  Rendered layouts/_sidebar.html.erb (109.1ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_messages.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 780ms (Views: 735.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-10 10:41:44 +0530
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  Rendered visitors/index.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_navigation.html.erb (19.0ms)
+  Rendered layouts/_navigation_links.html.erb (26.0ms)
+  Rendered layouts/_sidebar.html.erb (66.1ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_messages.html.erb (8.0ms)
+  Rendered layouts/_footer.html.erb (16.0ms)
+Completed 200 OK in 644ms (Views: 598.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-10 10:42:19 +0530
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  Rendered visitors/index.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_navigation.html.erb (3.0ms)
+  Rendered layouts/_navigation_links.html.erb (34.0ms)
+  Rendered layouts/_sidebar.html.erb (90.1ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_messages.html.erb (26.0ms)
+  Rendered layouts/_footer.html.erb (2.0ms)
+Completed 200 OK in 626ms (Views: 586.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/employees" for ::1 at 2016-09-10 10:42:23 +0530
+Processing by EmployeesController#index as HTML
+  Rendering employees/index.html.erb within layouts/application
+  [1m[36mEmployee Load (103.0ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  Rendered employees/index.html.erb within layouts/application (1618.1ms)
+  Rendered layouts/_navigation.html.erb (2.0ms)
+  Rendered layouts/_navigation_links.html.erb (2.0ms)
+  Rendered layouts/_sidebar.html.erb (63.0ms)
+  Rendered layouts/_navigation.html.erb (0.0ms)
+  Rendered layouts/_messages.html.erb (25.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 2992ms (Views: 2112.8ms | ActiveRecord: 239.1ms)
+
+
+Started GET "/employees" for ::1 at 2016-09-10 10:42:50 +0530
+Processing by EmployeesController#index as HTML
+  Rendering employees/index.html.erb within layouts/application
+  [1m[36mEmployee Load (9.0ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  Rendered employees/index.html.erb within layouts/application (67.0ms)
+  Rendered layouts/_navigation.html.erb (20.0ms)
+  Rendered layouts/_navigation_links.html.erb (3.0ms)
+  Rendered layouts/_sidebar.html.erb (43.0ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_messages.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 638ms (Views: 585.7ms | ActiveRecord: 9.0ms)
+
+
+Started GET "/employees" for ::1 at 2016-09-10 10:43:25 +0530
+Processing by EmployeesController#index as HTML
+  Rendering employees/index.html.erb within layouts/application
+  [1m[36mEmployee Load (3.0ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  Rendered employees/index.html.erb within layouts/application (31.0ms)
+  Rendered layouts/_navigation.html.erb (2.0ms)
+  Rendered layouts/_navigation_links.html.erb (2.0ms)
+  Rendered layouts/_sidebar.html.erb (45.0ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (10.0ms)
+Completed 200 OK in 660ms (Views: 612.9ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-10 10:43:30 +0530
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  Rendered visitors/index.html.erb within layouts/application (28.0ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_navigation_links.html.erb (4.0ms)
+  Rendered layouts/_sidebar.html.erb (48.0ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_messages.html.erb (33.1ms)
+  Rendered layouts/_footer.html.erb (13.1ms)
+Completed 200 OK in 640ms (Views: 587.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-10 10:43:33 +0530
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  Rendered visitors/index.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_navigation_links.html.erb (2.0ms)
+  Rendered layouts/_sidebar.html.erb (96.1ms)
+  Rendered layouts/_navigation.html.erb (0.0ms)
+  Rendered layouts/_messages.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 629ms (Views: 584.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/employees" for ::1 at 2016-09-10 10:43:36 +0530
+Processing by EmployeesController#index as HTML
+  Rendering employees/index.html.erb within layouts/application
+  [1m[36mEmployee Load (10.0ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  Rendered employees/index.html.erb within layouts/application (26.0ms)
+  Rendered layouts/_navigation.html.erb (2.0ms)
+  Rendered layouts/_navigation_links.html.erb (2.0ms)
+  Rendered layouts/_sidebar.html.erb (71.1ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_messages.html.erb (3.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 664ms (Views: 608.5ms | ActiveRecord: 10.0ms)
+
+
+Started GET "/employees" for ::1 at 2016-09-10 10:44:22 +0530
+Processing by EmployeesController#index as HTML
+  Rendering employees/index.html.erb within layouts/application
+  [1m[36mEmployee Load (1.0ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  Rendered employees/index.html.erb within layouts/application (13.0ms)
+  Rendered layouts/_navigation.html.erb (27.0ms)
+  Rendered layouts/_navigation_links.html.erb (3.0ms)
+  Rendered layouts/_sidebar.html.erb (46.0ms)
+  Rendered layouts/_navigation.html.erb (0.0ms)
+  Rendered layouts/_messages.html.erb (2.0ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (24.0ms)
+Completed 200 OK in 671ms (Views: 625.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/employees" for ::1 at 2016-09-10 10:44:25 +0530
+Processing by EmployeesController#index as HTML
+  Rendering employees/index.html.erb within layouts/application
+  [1m[36mEmployee Load (2.0ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  Rendered employees/index.html.erb within layouts/application (45.0ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_navigation_links.html.erb (32.0ms)
+  Rendered layouts/_sidebar.html.erb (72.0ms)
+  Rendered layouts/_navigation.html.erb (0.0ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 672ms (Views: 618.7ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/employees" for ::1 at 2016-09-10 10:44:47 +0530
+Processing by EmployeesController#index as HTML
+  Rendering employees/index.html.erb within layouts/application
+  [1m[36mEmployee Load (1.0ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  Rendered employees/index.html.erb within layouts/application (7.0ms)
+  Rendered layouts/_navigation.html.erb (2.0ms)
+  Rendered layouts/_navigation_links.html.erb (3.0ms)
+  Rendered layouts/_sidebar.html.erb (43.1ms)
+  Rendered layouts/_navigation.html.erb (0.0ms)
+  Rendered layouts/_messages.html.erb (2.0ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 616ms (Views: 560.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/employees" for ::1 at 2016-09-10 10:45:50 +0530
+Processing by EmployeesController#index as HTML
+  Rendering employees/index.html.erb within layouts/application
+  [1m[36mEmployee Load (1.0ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  Rendered employees/index.html.erb within layouts/application (7.0ms)
+  Rendered layouts/_navigation.html.erb (2.0ms)
+  Rendered layouts/_navigation_links.html.erb (2.0ms)
+  Rendered layouts/_sidebar.html.erb (50.1ms)
+  Rendered layouts/_messages.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 664ms (Views: 615.5ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-10 10:46:02 +0530
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  Rendered visitors/index.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_navigation.html.erb (3.0ms)
+  Rendered layouts/_navigation_links.html.erb (2.0ms)
+  Rendered layouts/_sidebar.html.erb (69.0ms)
+  Rendered layouts/_messages.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 554ms (Views: 514.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-10 10:46:50 +0530
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  Rendered visitors/index.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_navigation.html.erb (2.0ms)
+  Rendered layouts/_navigation_links.html.erb (15.0ms)
+  Rendered layouts/_sidebar.html.erb (85.1ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 582ms (Views: 530.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-10 10:47:01 +0530
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  Rendered visitors/index.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_navigation.html.erb (23.0ms)
+  Rendered layouts/_navigation_links.html.erb (2.0ms)
+  Rendered layouts/_sidebar.html.erb (53.0ms)
+  Rendered layouts/_messages.html.erb (29.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 581ms (Views: 528.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-10 10:47:08 +0530
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  Rendered visitors/index.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_navigation.html.erb (2.0ms)
+  Rendered layouts/_navigation_links.html.erb (27.0ms)
+  Rendered layouts/_sidebar.html.erb (68.0ms)
+  Rendered layouts/_messages.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 623ms (Views: 581.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-10 10:48:54 +0530
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  Rendered visitors/index.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_navigation.html.erb (2.0ms)
+  Rendered layouts/_navigation_links.html.erb (2.0ms)
+  Rendered layouts/_sidebar.html.erb (47.0ms)
+  Rendered layouts/_messages.html.erb (18.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 2741ms (Views: 2688.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-10 10:53:46 +0530
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  Rendered visitors/index.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_navigation.html.erb (2.0ms)
+  Rendered layouts/_navigation_links.html.erb (3.0ms)
+  Rendered layouts/_sidebar.html.erb (56.0ms)
+  Rendered layouts/_messages.html.erb (31.0ms)
+  Rendered layouts/_footer.html.erb (6.0ms)
+Completed 200 OK in 880ms (Views: 834.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/about" for ::1 at 2016-09-10 10:53:51 +0530
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"about"}
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (71.0ms)
+  Rendered layouts/_navigation.html.erb (2.0ms)
+  Rendered layouts/_navigation_links.html.erb (26.0ms)
+  Rendered layouts/_sidebar.html.erb (71.1ms)
+  Rendered layouts/_messages.html.erb (22.0ms)
+  Rendered layouts/_footer.html.erb (26.0ms)
+Completed 200 OK in 659ms (Views: 605.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-10 10:53:54 +0530
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  Rendered visitors/index.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_navigation.html.erb (2.0ms)
+  Rendered layouts/_navigation_links.html.erb (2.0ms)
+  Rendered layouts/_sidebar.html.erb (66.1ms)
+  Rendered layouts/_messages.html.erb (37.0ms)
+  Rendered layouts/_footer.html.erb (2.0ms)
+Completed 200 OK in 637ms (Views: 588.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-10 10:54:49 +0530
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  Rendered visitors/index.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_navigation.html.erb (2.0ms)
+  Rendered layouts/_navigation_links.html.erb (3.0ms)
+  Rendered layouts/_sidebar.html.erb (63.1ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (13.0ms)
+Completed 200 OK in 628ms (Views: 553.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-10 10:55:25 +0530
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  Rendered visitors/index.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_navigation.html.erb (2.0ms)
+  Rendered layouts/_navigation_links.html.erb (3.0ms)
+  Rendered layouts/_sidebar.html.erb (81.1ms)
+  Rendered layouts/_messages.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (23.0ms)
+Completed 200 OK in 614ms (Views: 571.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-10 10:55:47 +0530
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  Rendered visitors/index.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_navigation.html.erb (2.0ms)
+  Rendered layouts/_navigation_links.html.erb (16.0ms)
+  Rendered layouts/_sidebar.html.erb (57.0ms)
+  Rendered layouts/_messages.html.erb (11.0ms)
+  Rendered layouts/_footer.html.erb (9.0ms)
+Completed 200 OK in 571ms (Views: 520.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-10 10:56:07 +0530
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  Rendered visitors/index.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_navigation.html.erb (2.0ms)
+  Rendered layouts/_navigation_links.html.erb (2.0ms)
+  Rendered layouts/_sidebar.html.erb (48.0ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (3.0ms)
+Completed 200 OK in 526ms (Views: 481.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/employees" for ::1 at 2016-09-10 10:56:09 +0530
+Processing by EmployeesController#index as HTML
+  Rendering employees/index.html.erb within layouts/application
+  [1m[36mEmployee Load (3.0ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  Rendered employees/index.html.erb within layouts/application (9.0ms)
+  Rendered layouts/_navigation.html.erb (11.0ms)
+  Rendered layouts/_navigation_links.html.erb (2.0ms)
+  Rendered layouts/_sidebar.html.erb (52.0ms)
+  Rendered layouts/_messages.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (2.0ms)
+Completed 200 OK in 538ms (Views: 488.5ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/employees/1" for ::1 at 2016-09-10 10:56:11 +0530
+Processing by EmployeesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEmployee Load (2.0ms)[0m  [1m[34mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering employees/show.html.erb within layouts/application
+  Rendered employees/show.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_navigation.html.erb (43.0ms)
+  Rendered layouts/_navigation_links.html.erb (3.0ms)
+  Rendered layouts/_sidebar.html.erb (42.0ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (2.0ms)
+Completed 200 OK in 1572ms (Views: 496.2ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/employees/1/edit" for ::1 at 2016-09-10 10:56:16 +0530
+Processing by EmployeesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEmployee Load (2.0ms)[0m  [1m[34mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering employees/edit.html.erb within layouts/application
+  Rendered employees/_form.html.erb (1048.7ms)
+  Rendered employees/edit.html.erb within layouts/application (1114.8ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_navigation_links.html.erb (2.0ms)
+  Rendered layouts/_sidebar.html.erb (45.0ms)
+  Rendered layouts/_messages.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (2.0ms)
+Completed 200 OK in 1666ms (Views: 1607.6ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/employees" for ::1 at 2016-09-10 10:56:21 +0530
+Processing by EmployeesController#index as HTML
+  Rendering employees/index.html.erb within layouts/application
+  [1m[36mEmployee Load (2.0ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  Rendered employees/index.html.erb within layouts/application (6.0ms)
+  Rendered layouts/_navigation.html.erb (2.0ms)
+  Rendered layouts/_navigation_links.html.erb (2.0ms)
+  Rendered layouts/_sidebar.html.erb (45.0ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (2.0ms)
+Completed 200 OK in 518ms (Views: 473.9ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/employees/1/edit" for ::1 at 2016-09-10 10:56:25 +0530
+Processing by EmployeesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEmployee Load (2.0ms)[0m  [1m[34mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering employees/edit.html.erb within layouts/application
+  Rendered employees/_form.html.erb (8.0ms)
+  Rendered employees/edit.html.erb within layouts/application (59.0ms)
+  Rendered layouts/_navigation.html.erb (2.0ms)
+  Rendered layouts/_navigation_links.html.erb (3.0ms)
+  Rendered layouts/_sidebar.html.erb (108.1ms)
+  Rendered layouts/_messages.html.erb (3.0ms)
+  Rendered layouts/_footer.html.erb (2.0ms)
+Completed 200 OK in 728ms (Views: 580.4ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/employees" for ::1 at 2016-09-10 10:56:28 +0530
+Processing by EmployeesController#index as HTML
+  Rendering employees/index.html.erb within layouts/application
+  [1m[36mEmployee Load (1.0ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  Rendered employees/index.html.erb within layouts/application (7.0ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_navigation_links.html.erb (2.0ms)
+  Rendered layouts/_sidebar.html.erb (42.1ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (2.0ms)
+Completed 200 OK in 549ms (Views: 498.9ms | ActiveRecord: 1.0ms)
+
+

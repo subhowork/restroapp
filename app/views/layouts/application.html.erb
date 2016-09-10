@@ -9,13 +9,31 @@
     <%= csrf_meta_tags %>
   </head>
   <body>
-    <header>
-      <%= render 'layouts/navigation' %>
-    </header>
-    <main role="main">
-       <%= render 'layouts/messages' %>
-       <%= yield %>
-    </main>
-    <%= render 'layouts/footer' %>
+    <div id="wrapper">
+
+      <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+
+        <!-- Top Nav -->
+        <%= render 'layouts/navigation' %>
+
+        <!-- Sidebar -->
+        <%= render 'layouts/sidebar' %>
+
+      </nav>
+      <div id="page-wrapper">
+        <div class="container-fluid">
+            <%= render 'layouts/messages' %>
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="page-header">Page Title</h1>
+                </div>
+            </div>
+
+            <%= yield %>
+
+        </div>
+    </div>
+      <%= render 'layouts/footer' %>
+    </div>
   </body>
 </html>
