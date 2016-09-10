@@ -13,6 +13,11 @@
 //= require jquery.min
 //= require bootstrap.min
 //= require metisMenu.min
+//= require jquery.dataTables.min
+//= require dataTables.bootstrap.min
+//= require dataTables.responsive.min
+//= require dataTables.select.min
+//= require responsive.bootstrap.min
 //= require custom
 
 
