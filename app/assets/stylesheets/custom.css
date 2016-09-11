@@ -1003,3 +1003,13 @@ table.dataTable thead .sorting:after {
   font-weight: 400;
   font-size: 12px;
 }
+
+#page-wrapper form {
+
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+.form-control {
+    width: 50%;
+}
