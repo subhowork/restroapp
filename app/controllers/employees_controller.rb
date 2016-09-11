@@ -69,7 +69,9 @@ class EmployeesController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def employee_params
-      params[:employee][:photo] = params[:employee][:photo].read
+      if params[:employee][:photo]
+        params[:employee][:photo] = params[:employee][:photo].read  
+      end
       params.require(:employee).permit(:empid, :location, :name, :email, :surname, :dob, :fathername, :mothername, :address, :infosyspass, :infosysfoodcourtpass, :dlfpass, :policeverificationstartdate, :policeverificationenddate, :policeverificationreminderdate, :medical, :medicalexpirydate, :medicalreminderdate, :arrivaldate, :photo, :grandfathername, :age, :pan, :responsibility, :comments, :education)
     end
 

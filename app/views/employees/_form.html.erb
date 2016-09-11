@@ -11,8 +11,11 @@
     </div>
   <% end %>
 
-
-  <%= ('<img width="200px" height="200px" src="data:image/jpg;base64,%s">' % Base64.encode64(@employee.photo)).html_safe %>
+  <% if @employee.photo %>
+    <%= ('<img width="200px" height="200px" src="data:image/jpg;base64,%s">' % Base64.encode64(@employee.photo)).html_safe %>
+  <% else %>
+    <img width="200px" height="200px" src="/images/placeholder.jpg">
+  <% end %>  
   <div class="form-group">
     <%= f.label :photo ,'Choose profile image'%>
     <%= f.file_field :photo %>
@@ -21,23 +24,23 @@
   
   <div class="form-group">
     <%= f.label :name ,'First Name'%>
-    <%= f.text_field :name ,class:'form-control', placeholder:'Enter First Name' %>
+    <%= f.text_field :name ,class:'form-control', placeholder:'Enter First Name'  ,required: 'true'%>
   </div>
 
   <div class="form-group">
     <%= f.label :surname ,'Last Name'%>
-    <%= f.text_field :surname ,class:'form-control', placeholder:'Enter Last Name' %>
+    <%= f.text_field :surname ,class:'form-control', placeholder:'Enter Last Name' ,required: 'true' %>
   </div>
 
   <div class="form-group">
-    <%= f.label :email ,'Email ID'%>
-    <%= f.email_field :email ,class:'form-control', placeholder:'Enter email address' %>
+    <%= f.label :email ,'Email ID' %>
+    <%= f.email_field :email ,class:'form-control', placeholder:'Enter email address' ,required: 'true'%>
   </div>
 
 
   <div class="form-group">
     <%= f.label :dob ,'Date Of Birth'%>
-    <%= f.text_field :dob ,class:'form-control datepicker' %>
+    <%= f.text_field :dob ,class:'form-control datepicker' ,required: 'true' %>
   </div>
 
   <div class="form-group">
@@ -84,38 +87,38 @@
 
   <div class="form-group">
     <%= f.label :policeverificationstartdate ,'Police Verification Start Date'%>
-    <%= f.text_field :policeverificationstartdate ,class:'form-control datepicker' %>
+    <%= f.text_field :policeverificationstartdate ,class:'form-control datepicker' ,required: 'true' %>
   </div>
 
   <div class="form-group">
     <%= f.label :policeverificationenddate ,'Police Verification End Date'%>
-    <%= f.text_field :policeverificationenddate ,class:'form-control datepicker' %>
+    <%= f.text_field :policeverificationenddate ,class:'form-control datepicker' ,required: 'true' %>
   </div>
 
   <div class="form-group">
     <%= f.label :policeverificationreminderdate ,'Police Verification Reminder Date'%>
-    <%= f.text_field :policeverificationreminderdate ,class:'form-control datepicker' %>
+    <%= f.text_field :policeverificationreminderdate ,class:'form-control datepicker' ,required: 'true' %>
   </div>
 
   <div class="form-group">
     <%= f.label :medical ,'Medical Date'%>
-    <%= f.text_field :medical ,class:'form-control datepicker' %>
+    <%= f.text_field :medical ,class:'form-control datepicker' ,required: 'true'%>
   </div>
 
   <div class="form-group">
     <%= f.label :medicalexpirydate ,'Medical Expiry Date'%>
-    <%= f.text_field :medicalexpirydate ,class:'form-control datepicker' %>
+    <%= f.text_field :medicalexpirydate ,class:'form-control datepicker' ,required: 'true'%>
   </div>
 
 
   <div class="form-group">
     <%= f.label :medicalreminderdate ,'Medical Reminder Date'%>
-    <%= f.text_field :medicalreminderdate ,class:'form-control datepicker' %>
+    <%= f.text_field :medicalreminderdate ,class:'form-control datepicker' ,required: 'true'%>
   </div>
 
   <div class="form-group">
     <%= f.label :arrivaldate ,'Arrival Date'%>
-    <%= f.text_field :arrivaldate ,class:'form-control datepicker' %>
+    <%= f.text_field :arrivaldate ,class:'form-control datepicker' ,required: 'true'%>
   </div>
 
 
